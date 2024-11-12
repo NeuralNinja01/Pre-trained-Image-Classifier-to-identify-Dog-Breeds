@@ -38,11 +38,11 @@ Model Architectures Used:
 
 The project uses the following pre-trained models:
 
-ResNet18: A deeper model known for its residual connections, making it effective for image classification tasks.
+1. ResNet18: A deeper model known for its residual connections, making it effective for image classification tasks.
 
-AlexNet: A classic model that introduced many important techniques in deep learning, such as the use of ReLU activation and dropout.
+2. AlexNet: A classic model that introduced many important techniques in deep learning, such as the use of ReLU activation and dropout.
 
-VGG: A model with a simple architecture of stacked convolutional layers, known for its depth and strong performance in image classification.
+3. VGG: A model with a simple architecture of stacked convolutional layers, known for its depth and strong performance in image classification.
 
 Model Evaluation:
 
@@ -54,8 +54,8 @@ Objective 2: Accuracy of classifying the breed of the dog, if applicable.
 
 Future Improvements:
 
-Expanding the Dataset: The dataset could be expanded with more dog breeds or non-dog images for better evaluation.
+1. Expanding the Dataset: The dataset could be expanded with more dog breeds or non-dog images for better evaluation.
 
-Fine-tuning Models: Fine-tuning the pre-trained models on this specific dataset could improve classification accuracy.
+2. Fine-tuning Models: Fine-tuning the pre-trained models on this specific dataset could improve classification accuracy.
 
-Real-time Deployment: The model could be deployed to an application where users can upload images to classify dogs in real time.
+3. Real-time Deployment: The model could be deployed to an application where users can upload images to classify dogs in real time.
