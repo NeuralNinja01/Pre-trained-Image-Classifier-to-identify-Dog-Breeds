@@ -1,22 +1,23 @@
-Overview:
+# Pre-trained Image Classifier to identify Dog Breeds
+### Overview
 
 This project involves using three different pre-trained Convolutional Neural Networks (CNNs)—ResNet18, AlexNet, and VGG—to classify images of dogs and non-dogs. The task is to build an image classifier that first identifies whether the image contains a dog or not, and then if it is a dog, classifies the breed.
 
 This project is part of the Udacity AI Programming with Python Nanodegree program with the AWS AI/ML Scholarship and focuses on evaluating and comparing the performance of the three pre-trained CNN models on a dog image dataset.
 
-Key Objectives:
+### Key Objectives
 
 Objective 1: Identify whether an image contains a dog or not (classify as "dog" or "not-a-dog").
 
 Objective 2: For images that contain a dog, classify the specific breed using one of the three pre-trained models: ResNet18, AlexNet, or VGG.
 
-Performance:
+### Performance
 
 VGG and AlexNet: Correctly identify "dog" and "not-a-dog" images 100% of the time.
 
 VGG: Provides the best breed classification performance, identifying the correct breed over 90% of the time.
 
-Workflow Overview:
+### Workflow Overview
 
 The program performs the following tasks to achieve the objectives:
 
@@ -34,7 +35,7 @@ The program performs the following tasks to achieve the objectives:
 
 7. Printing Results: The final results are printed, displaying the accuracy for both the identification of dogs and the breed classification.
 
-Model Architectures Used:
+### Model Architectures Used
 
 The project uses the following pre-trained models:
 
@@ -44,7 +45,7 @@ The project uses the following pre-trained models:
 
 3. VGG: A model with a simple architecture of stacked convolutional layers, known for its depth and strong performance in image classification.
 
-Model Evaluation:
+### Model Evaluation
 
 Each model's performance is evaluated on the dataset using the two objectives:
 
@@ -52,7 +53,7 @@ Objective 1: Accuracy of identifying whether the image contains a dog.
 
 Objective 2: Accuracy of classifying the breed of the dog, if applicable.
 
-Future Improvements:
+### Future Improvements:
 
 1. Expanding the Dataset: The dataset could be expanded with more dog breeds or non-dog images for better evaluation.
 
